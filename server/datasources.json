@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "openwines-appellation-geo-db": {
+    "name": "openwines-appellation-geo-db",
+    "connector": "mongodb",
+    "url":"mongodb://anthony:guignols@ds043997.mongolab.com:43997/openwines-appellation-geoloc"
+  }
+}
