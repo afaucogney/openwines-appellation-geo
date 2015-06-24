@@ -227,7 +227,7 @@ module.exports = function (app, cb) {
       //urls.forEach(function (geoJsonUrl) {
       //  request({
       //    method: 'GET',
-      //    url   : geoJsonUrl
+      //    GITHUB_URL   : geoJsonUrl
       //  }, function (err, response, body) {
       //    geoJSONobjects.push(JSON.parse(body));
       //  });
@@ -256,7 +256,7 @@ module.exports = function (app, cb) {
       //urls.forEach(function (geoJsonUrl) {
       //  request({
       //    method: 'GET',
-      //    url   : geoJsonUrl
+      //    GITHUB_URL   : geoJsonUrl
       //  }, function (err, response, body) {
       //    geoJSONobjects.push(JSON.parse(body));
       //  });
@@ -324,7 +324,7 @@ module.exports = function (app, cb) {
 
 
     //async.waterfall([
-    //  getGeoJSONurl,
+    //  getGeoJsonUrlFromGithubPage,
     //  getRawGeoJSON,
     //  pushToMongo
     //], function (err, result) {

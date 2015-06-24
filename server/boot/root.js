@@ -1,7 +1,7 @@
 module.exports = function(server) {
 
   var hostName = "openwines-appellation-geoloc.herokuapp.com";
-  require("heroku-alive").startKeepAlive(1, hostName, 80);
+  require("heroku-alive").startKeepAlive(20, hostName, 80);
 
   // Install a `/` route that returns server status
   var router = server.loopback.Router();
