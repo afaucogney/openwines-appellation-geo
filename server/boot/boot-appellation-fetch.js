@@ -7,7 +7,7 @@ module.exports = function (app, cb) {
    * for more info.
    */
 
-  if (process.env.UPDATE_GEOJSON_FROM_GITHUB === 1) {
+  if (process.env.UPDATE_GEOJSON_FROM_GITHUB == 1) {
 
     //app.models.Appellation.find(function (err, appellations) {
     //  appellations.forEach(function (appellation) {
